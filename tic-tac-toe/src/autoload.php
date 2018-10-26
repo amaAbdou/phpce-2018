@@ -7,6 +7,8 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
+                'commandhandler' => '/CommandHandler.php',
+                'game' => '/Game.php',
                 'phpce\\tictactoe\\command' => '/Command.php',
                 'phpce\\tictactoe\\event' => '/Event.php',
                 'phpce\\tictactoe\\eventstore' => '/EventStore.php',

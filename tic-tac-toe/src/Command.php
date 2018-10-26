@@ -4,5 +4,5 @@ namespace phpce\tictactoe;
 
 interface Command
 {
-    // marker interface
+  public function handler() :string;
 }
